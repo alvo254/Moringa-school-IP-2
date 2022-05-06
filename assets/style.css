@@ -66,6 +66,12 @@ nav ul li a{
     padding-top: 50;
     
 }
+.dashed{
+    width: 250;
+    float: left;
+    height: 2.5;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(yellow), to(black));
+}
 .hastling img{
     height:600;
     padding-left: 120;
