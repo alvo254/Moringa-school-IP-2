@@ -1,0 +1,53 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/* --------------------------------------------start navigation section ----------------------------------------- */
+#navigation{
+    /* padding-bottom: 60; */
+
+}
+nav{
+    position: absolute;
+    padding-left: 900;
+    /* padding: 0;
+    margin: 0; */
+}
+nav ul li{
+    display: inline;
+    padding: 23;
+    float: left;
+    padding: 50;
+}
+/* ..............................................end navigation section ------------------------------------ */
+
+/* --------------------------------------------------------header section ------------------------ */
+#header{
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+.headerText{
+    position:absolute;
+    color: yellow;
+    padding-top: 220;
+    padding-left: 120;
+    font-size: 35px;
+    width: 40%;
+}
+.heading img{
+    width: 100%;
+    
+}
+/* ----------------------------------------------------------end header section end --------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
