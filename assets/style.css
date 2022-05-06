@@ -15,7 +15,7 @@ nav{
     position: absolute;
     padding-top: 20;
     padding-left: 800;
-    /* padding: 0;
+    /* padding: 0;           
     margin: 0; */
 }
 nav ul li{
@@ -175,6 +175,54 @@ ul {
     text-align: center;
 }
 
+
+.socialIcons a{
+    height: 180;
+    padding: 20;
+    color: white;
+}
+
+/* ---------------------------------------------------------------------responsivenes---------------------------------------------------------- */
+
+/* @media only screen and (max-width:480px) {
+    nav {
+        width: 1000px;
+        height: 1000px;
+        position: absolute;
+
+    }
+    nav ul li{
+        width: 90;
+        display: inline-block;
+        padding: 35;
+    }
+} */
+/* @media only screen and (min-width:720){
+
+}
+@media (max-width:760px){
+    #foot{
+        width: 190%;
+        /* height: vh; */
+    }
+    /* .row{
+        display: flex;
+        width: auto;
+        padding-left: -1920;
+    }
+    .footerCol{
+        
+        padding-right: -120;
+    }
+    
+}  */
+
+
+
+/* -------------------------------------------------------------------------------end of responsivenes-------------------------------------------------------- */
+
+
+
 /* -----------------------------------------------------------------------end of footer -------------------------------------------------------------- */
 
 
@@ -182,5 +230,42 @@ ul {
 
 
 /* --------------------------------------------Start of movers.html design--------------------------------------------------------------- */
+
+
+
+
+/* .movNav ul li #press{
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    width: 30;
+    padding: 10;
+    border-radius: 0 20px 0px 0px;
+} */
+/* .navDash{
+    width: 100%;
+    align-items: center;
+    height: 0.;
+    padding: 0;
+} */
+
+
+/* ---------------------------------------------------------------------------------section property house------------------------------------------------------------------------ */
+#about{
+    display: flex;
+}
+.pic img{
+    height: 460;
+    margin-left: 120;
+}
+
+/* -------------------------------------------------------------------------------------------------end section property house----------------------------------------------------------------------------- */
+
+
+
+
+
+
+
 
 
