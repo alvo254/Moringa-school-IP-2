@@ -8,10 +8,14 @@ body{
 }
 
 /* --------------------------------------------start navigation section ----------------------------------------- */
+
 .hero{
     height: 100vh;
     width: 100%;
     background-image: url("/assets/images/moving\ 1.png");
+}
+.navb{
+    padding-top: 0;
 }
 .navbar ul{
     display: flex;
@@ -19,7 +23,37 @@ body{
     /* background-color: black; */
     color: white;
     padding: 15;
-    z-index: -1;
+
+}
+.navb ul{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 15;
+
+}
+.navbared ul{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 15;
+
+
+}
+
+.navbared li{
+    list-style-type: none;
+    padding: 1rem;
+    padding-top: 50;
+
+}
+.navb li{
+    margin-bottom: 10px;
+    list-style-type: none;
+    padding: 1rem;
+    padding-top: 50;
 
 }
 .navbar li{
@@ -28,7 +62,16 @@ body{
     padding-top: 50;
 
 }
+
 .navbar a{
+    color: white;
+    text-decoration: none  ;
+}
+.navb a{
+    color: white;
+    text-decoration: none  ;
+}
+.navbared a{
     color: white;
     text-decoration: none  ;
 }
@@ -36,22 +79,45 @@ body{
     content: '';
     flex: 0.95;
 }
+.navLog{
+    content: '';
+    flex: 0.8;
+}
+.navLogo{
+    content: '';
+    flex: 0.95;
+}
 .nav-toggle{
     display: none;
 }
+.navToggle{
+    display: none;
+}
+
 
  @media (max-width:600px){
      .navbar ul{
          flex-wrap: wrap;
      }
+     .navbared ul{
+        flex-wrap: wrap;
+    }
      .nav-toggle{
          display: block;
      }
+     .navToggle{
+        display: block;
+    }
      .navLinks{
          display: none;
          width: 100%;
          text-align: center ;
      }
+     .nav-Links{
+        display: none;
+        width: 100%;
+        text-align: center ;
+    }
      .active{
          display: block;
      }
