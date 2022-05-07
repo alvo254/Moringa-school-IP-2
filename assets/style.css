@@ -4,17 +4,15 @@ body{
     padding: 0;
     margin: 0;
     font-family: poppins,actor,adamina;
+    /* background-color: red; */
 }
 
 /* --------------------------------------------start navigation section ----------------------------------------- */
-#navigation{
-    /* padding-bottom: 60; */
-
-}
 nav{
     position: absolute;
-    padding-top: 20;
+    padding-top: 10;
     padding-left: 800;
+
     /* padding: 0;           
     margin: 0; */
 }
@@ -29,6 +27,36 @@ nav ul li a{
     color: white;
     font-size: 19;
 }
+#navigate nav ul li{
+    padding: 30;
+    padding-bottom: -10;
+}
+
+#navigate nav{
+    /* background: -webkit-gradient(linear, 170 0, 100% 0, from(black), to(brown)); */
+    background-color: black;
+    
+}
+#house{
+    display: flex;
+    padding-top: 150;
+    background-color: black;
+    display: inline-block;
+    width: 100%;
+}
+.modern{
+    color: white;
+    width: 50%;
+    padding-left: 120;
+}
+.price{
+    width: 50%;
+    color: white;
+    float: right;
+    
+}
+
+
 /* ..............................................end navigation section ------------------------------------ */
 
 /* --------------------------------------------------------header section ------------------------ */
@@ -116,11 +144,12 @@ nav ul li a{
 
 /* ----------------------------------------------------------------our top movers section with images------------------------------------------------------ */
 #movers{
-    display: flex;
+    display: inline;
     padding-top: 90;
     padding-left: 100;
     background-color: whitesmoke;
     margin: 110;
+    
 
 }
 .imaging img{
@@ -231,9 +260,35 @@ ul {
 
 /* --------------------------------------------Start of movers.html design--------------------------------------------------------------- */
 
+/* .nav{
+    padding: 1200;
+} */
+
+#mov ul li a{
+    padding: 20;
+    margin-left: 505;
+    color: white;
+    
+    
+}
 
 
+#movNave nav{    
+    background-color: black;
+    width: 100%;
+    padding: 20;
+    color: white;
+}
 
+.house{
+    color: yellow;
+    padding-left: 12;
+    padding-top: 190;
+}
+.dashing{
+    margin-top:40 ;
+    width: 100%;
+}
 /* .movNav ul li #press{
     background-color: yellow;
     color: black;
@@ -252,11 +307,31 @@ ul {
 
 /* ---------------------------------------------------------------------------------section property house------------------------------------------------------------------------ */
 #about{
-    display: flex;
+    display: inline;
+    padding-top: 150;
+    flex-wrap: wrap;
 }
+
 .pic img{
     height: 460;
+    width: 550;
     margin-left: 120;
+}
+.picRow{
+    display: flex;
+    margin-top: 12;
+    margin-left: 120;
+
+}
+.picCol{
+    /* width: 55; */
+    
+    padding: 12;
+}
+.picCol img{
+    height: 100;
+    width: 90;
+    
 }
 
 /* -------------------------------------------------------------------------------------------------end section property house----------------------------------------------------------------------------- */
@@ -269,3 +344,53 @@ ul {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .card{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+    border-radius: 18px;
+    background-color: snow;
+    text-align: center;
+    padding-top: 200;
+    padding-left: 128;
+}
+
+.imgMovers{
+    grid-area: image;
+    background: url("../assets/images/ehem\ 1.png");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 12px;
+    background-size: cover;
+}
+.imgText{
+    grid-area: text;
+
+}
+.imgStats{
+    grid-area: stats;
+}
+
+
+
+.det{
+    margin-top: 12;
+    padding-left: 120;
+} */
