@@ -8,13 +8,61 @@ body{
 }
 
 /* --------------------------------------------start navigation section ----------------------------------------- */
-nav{
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url("/assets/images/moving\ 1.png");
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    /* background-color: black; */
+    color: white;
+    padding: 15;
+    z-index: -1;
+
+}
+.navbar li{
+    list-style-type: none;
+    padding: 1rem;
+    padding-top: 50;
+
+}
+.navbar a{
+    color: white;
+    text-decoration: none  ;
+}
+.nav-logo{
+    content: '';
+    flex: 0.95;
+}
+.nav-toggle{
+    display: none;
+}
+
+ @media (max-width:600px){
+     .navbar ul{
+         flex-wrap: wrap;
+     }
+     .nav-toggle{
+         display: block;
+     }
+     .navLinks{
+         display: none;
+         width: 100%;
+         text-align: center ;
+     }
+     .active{
+         display: block;
+     }
+ }
+/* nav{
     position: absolute;
     padding-top: 10;
     padding-left: 800;
 
     /* padding: 0;           
-    margin: 0; */
+    margin: 0; 
 }
 nav ul li{
     display: inline;
@@ -33,10 +81,10 @@ nav ul li a{
 }
 
 #navigate nav{
-    /* background: -webkit-gradient(linear, 170 0, 100% 0, from(black), to(brown)); */
+    background: -webkit-gradient(linear, 170 0, 100% 0, from(black), to(brown)); 
     background-color: black;
     
-}
+} */
 #house{
     display: flex;
     padding-top: 150;
