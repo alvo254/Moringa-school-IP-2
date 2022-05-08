@@ -8,6 +8,9 @@ body{
 }
 
 /* --------------------------------------------start navigation section ----------------------------------------- */
+#navigate{
+    display: inline;
+}
 
 .hero{
     height: 100vh;
@@ -39,8 +42,6 @@ body{
     background-color: black;
     color: white;
     padding: 15;
-
-
 }
 
 .navbared li{
@@ -145,10 +146,39 @@ body{
 /* ..............................................end navigation section ------------------------------------ */
 
 /* ------------------contact card----------------- */
+#abSide{
+    width: 100%;
+    display: inline;
+}
+.side1{
+    /* background-color: red; */
+    width: 50%;
+    padding-left: 120;
+    padding-top: 120;
+}
+.largeImg img{
+    width: 100%;
+    height: ;
+}
+.smallImages{
+    display: flex;
+}
+.smallImages img{
+    padding-top: 12;
+    width: 100%;
+}
 
+.side2{
+    width: 40%;
+    background-color: red;
+    display: flex;
+
+}
+.contactBox{
+}
 
 .kayley{
-    width: 50%;
+    /* width: 50%; */
     float: right;
     padding-top: 120;
     display: flex;
@@ -158,8 +188,9 @@ body{
 
 }
 
-
+/* 
 .contactBox{
+    padding-bottom: 120;
     width: 300px;
     height: 540;
     padding-left: 15;
@@ -198,16 +229,16 @@ body{
     background-color: black;
     color: white;
     border-radius: 0px 20px 0 0;
-}
+} */
 
 /* -------------------------end contact card------------------- */
 /* --------------------------------------------------------header section ------------------------ */
-/* #header{
+#header{
     margin: 0;
     padding: 0;
     display: flex;
 
-} */
+}
 .headerText{
     position:absolute;
     color: #FAFF00;
@@ -218,14 +249,10 @@ body{
     width: 600;
     font-weight: 150;
 }
+
 .headerText #diffText{
-    color: lightgray;
-    font-size: 30;
-}
-.heading img{
-    width: 100%;
-    height: 95%;
-    
+    color: darkgray;
+    font-family: poppins;
 }
 /* ----------------------------------------------------------end header section end --------------------------------------------------------- */
 
@@ -253,8 +280,13 @@ body{
     
 }
 #carded .cardedText{
+    font-family: adamina;
     margin-left: 20;
+    font-weight: 300;
     font-size: 54px;
+}
+.cont h3{
+    font-family: adamina;
 }
 .wrap{
     /* display: inline; */
@@ -275,7 +307,7 @@ body{
 }
 
 .cont .icons a i{
-    padding: 36;
+    padding: 3;
     align-items: center;
     justify-content: space-between;
     justify-content: center;
@@ -378,6 +410,33 @@ body{
     display: inline-block;
     /* background-color: #FAFF00; */
     padding-left: 120;
+    font-family: actor;
+}
+.card-col h2{
+    padding-left: 20;
+    font-size: 25;
+}
+.contentLink-col{
+    padding: 23;  
+}
+.content-col p{
+    width: 100%;
+    height: 90;
+    color: darkgray;
+}
+.cardWrap-col h2{
+    padding-left: 20;
+    font-size: 25;
+
+}
+.content-col li a{
+    text-decoration: none;
+    padding-left: 5;
+}
+.content-col li{
+    list-style: none;
+    padding: 15;
+    margin: 16;
 }
 .wrapper-col{
     /* display: inline; */
@@ -390,10 +449,10 @@ body{
     margin-top: 100px;
 }
 .cardWrap-col{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    box-shadow: 0 4px 8px 0 rgba(148, 147, 147, 0.6);
     width: 700px;
-    height: 450px;
-    background-color: #fff;
+    height: 400px;
+    background-color: snow;
     float: left;
     margin: 10px;
     border-radius: 15px;
@@ -408,7 +467,7 @@ body{
     margin-top: 90px;
 }
 .card-col{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    box-shadow: 0 4px 8px 0 rgba(148, 147, 147, 0.6);
     width: 700px;
     height: 150px;
     background-color: #fff;
@@ -595,6 +654,12 @@ body{
     padding-left: 920;
     color: white;
 }
+.footerCol ul li a{
+    text-decoration: none;
+}
+.footerCol ul li{
+    list-style: none;
+}
 .footerCol h4{
     float: right;
     padding-left: 30;
@@ -606,7 +671,7 @@ body{
 
 .socialIcons a{
     height: 180;
-    padding: 20;
+    padding: 10;
     color: white;
 }
 
@@ -705,33 +770,7 @@ body{
 
 
 /* ---------------------------------------------------------------------------------section property house------------------------------------------------------------------------ */
-#contInfo{
-    display: inline;
-    background-color: #FAFF00;
-    flex-wrap: wrap;
-}
 
-.pic img{
-    height: 460;
-    width: 550;
-    margin-left: 120;
-}
-.picRow{
-    display: flex;
-    margin-top: 12;
-    margin-left: 120;
-
-}
-.picCol{
-    /* width: 55; */
-    
-    padding: 12;
-}
-.picCol img{
-    height: 100;
-    width: 90;
-    
-}
 
 /* -------------------------------------------------------------------------------------------------end section property house----------------------------------------------------------------------------- */
 
