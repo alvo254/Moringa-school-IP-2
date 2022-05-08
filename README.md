@@ -27,3 +27,13 @@ The project demonstrates an understanding of this week's concepts. If prompted, 
 Required content was in place by the deadline.
 
 
+
+
+Reasearch and development(R&D)
+Findings and what i came across as new to me
+1.<hr> tag which brings a line which can be edited as one desires.
+2.Responsivnes using javascript as shown in script.js
+- @ media screen - usasge
+
+
+
