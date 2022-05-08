@@ -49,5 +49,6 @@ same as above but with left
 fonts can be imported into html by the @symbol
 
 This is just personal research done while trying to learn technologies to use in web development.
+Unfortunately i am havig problems with responsiveness of the website will push an update on my pr0gress
 
 
