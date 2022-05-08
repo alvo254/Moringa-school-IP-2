@@ -4,7 +4,7 @@ Project name: Moringa School landing page.
 Project author: Alvin Ndungu.
 Description: This project was made to evaulate my understanding of weeks one content of web design.
 
-Link to live site: https://alvo254.github.io/moringa-school-IP-1/
+Link to live site: 
 
 Deployment: connect to gh-pages 
 
@@ -33,7 +33,21 @@ Reasearch and development(R&D)
 Findings and what i came across as new to me
 1.<hr> tag which brings a line which can be edited as one desires.
 2.Responsivnes using javascript as shown in script.js
-- @ media screen - usasge
+- @ media screen
+The @media rule, introduced in CSS2, made it possible to define different style rules for different media types.
 
+Examples: You could have one set of style rules for computer screens, one for printers, one for handheld devices, one for television-type devices, and so on.
+
+Unfortunately these media types never got a lot of support by devices, other than the print media type.
+
+Viewport defination-The viewport is the user's visible area of a web page.
+I discoverd css refernce 
+border style radius are like
+border-bottom-right-radius
+same as above but with left
+
+fonts can be imported into html by the @symbol
+
+This is just personal research done while trying to learn technologies to use in web development.
 
 
