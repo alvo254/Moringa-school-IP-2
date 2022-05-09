@@ -15,7 +15,7 @@ body{
 .hero{
     height: 100vh;
     width: 100%;
-    background-image: url("/assets/images/moving\ 1.png");
+    background-image: url("assets/images/moving\ 1.png");
 }
 .navb{
     padding-top: 0;
